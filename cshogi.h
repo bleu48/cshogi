@@ -8,6 +8,7 @@
 
 void HuffmanCodedPos_init() {
 	HuffmanCodedPos::init();
+	PackedSfen::init();
 }
 
 std::string __to_usi(const int move) {
